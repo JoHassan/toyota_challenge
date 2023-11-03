@@ -3,7 +3,8 @@ Delphi Form connesso a Mysql per per aggiungere, modificare ed eliminare dipende
 
 ![dblogin](https://github.com/JoHassan/toyota_challenge/assets/85934238/1ae70782-ed1c-4a4a-82ea-c38abed389df)
 
-![dipendentiForm](https://github.com/JoHassan/toyota_challenge/assets/85934238/3e861636-8856-4f9f-a57b-d6f6d9332e12)
+![dipendentiForm](https://github.com/JoHassan/toyota_challenge/assets/85934238/3812007a-453a-4949-88e9-5d4eb083ddb0)
+
 
 Se si vuole eseguirlo per farlo funzionare sarà necessario seguire questi passaggi:
 
