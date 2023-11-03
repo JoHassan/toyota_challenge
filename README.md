@@ -21,3 +21,5 @@ https://www.mysqltutorial.org/wp-content/uploads/2018/03/mysqlsampledatabase.zip
 Una volta scaricato sarà necessario estrarlo e andare su 
 MySql WorkBench>Server>>Data Import> Import from Self-Contained File
 E selezionare il file .SQL scaricato.
+
+-Eseguire l' applicativo
