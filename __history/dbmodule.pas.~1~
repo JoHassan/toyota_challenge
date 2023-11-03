@@ -1,0 +1,33 @@
+unit dbmodule;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Data.DB, Data.SqlExpr, Data.DBXMySQL,
+  Datasnap.DBClient, SimpleDS, System.ImageList, Vcl.ImgList, Vcl.Controls;
+
+type
+  TDataModule3 = class(TDataModule)
+    SQLConnection1: TSQLConnection;
+    SimpleDataSet1: TSimpleDataSet;
+    DataSource1: TDataSource;
+    ImageList1: TImageList;
+  private
+    { Private declarations }
+  public
+   { Public declarations }
+  end;
+
+var
+  DataModule3: TDataModule3;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+{ TDataModule3 }
+
+
+end.

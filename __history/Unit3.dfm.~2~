@@ -1,0 +1,178 @@
+object addEditEmployee: TaddEditEmployee
+  Left = 0
+  Top = 0
+  Caption = 'Add Employee'
+  ClientHeight = 365
+  ClientWidth = 302
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  Position = poMainFormCenter
+  TextHeight = 15
+  object Label1: TLabel
+    Left = 64
+    Top = 16
+    Width = 10
+    Height = 15
+    Alignment = taRightJustify
+    Caption = 'Id'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 19
+    Top = 56
+    Width = 55
+    Height = 15
+    Alignment = taRightJustify
+    Caption = 'First name'
+  end
+  object Label3: TLabel
+    Left = 20
+    Top = 96
+    Width = 54
+    Height = 15
+    Alignment = taRightJustify
+    Caption = 'Last name'
+  end
+  object Label4: TLabel
+    Left = 45
+    Top = 136
+    Width = 29
+    Height = 15
+    Alignment = taRightJustify
+    Caption = 'Email'
+  end
+  object Label5: TLabel
+    Left = 23
+    Top = 176
+    Width = 51
+    Height = 15
+    Alignment = taRightJustify
+    Caption = 'Extension'
+  end
+  object Label6: TLabel
+    Left = 11
+    Top = 216
+    Width = 63
+    Height = 15
+    Alignment = taRightJustify
+    Caption = 'Office Code'
+  end
+  object Label7: TLabel
+    Left = 20
+    Top = 256
+    Width = 54
+    Height = 15
+    Alignment = taRightJustify
+    Caption = 'Reports to'
+  end
+  object Label8: TLabel
+    Left = 28
+    Top = 296
+    Width = 46
+    Height = 14
+    Alignment = taRightJustify
+    Caption = 'Job Title'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Calibri'
+    Font.Style = []
+    ParentFont = False
+  end
+  object idEdit: TEdit
+    Left = 80
+    Top = 13
+    Width = 209
+    Height = 23
+    ImeName = 'Italian'
+    CanUndoSelText = True
+    TabOrder = 0
+  end
+  object firstNameEdit: TEdit
+    Left = 80
+    Top = 53
+    Width = 209
+    Height = 23
+    ImeName = 'Italian'
+    TabOrder = 1
+  end
+  object lastNameEdit: TEdit
+    Left = 80
+    Top = 93
+    Width = 209
+    Height = 23
+    ImeName = 'lastNameEdit'
+    TabOrder = 2
+  end
+  object emailEdit: TEdit
+    Left = 80
+    Top = 133
+    Width = 209
+    Height = 23
+    ImeName = 'Italian'
+    TabOrder = 3
+  end
+  object extensionEdit: TEdit
+    Left = 80
+    Top = 173
+    Width = 209
+    Height = 23
+    Enabled = False
+    ImeName = 'Italian'
+    TabOrder = 4
+  end
+  object officeCodeEdit: TEdit
+    Left = 80
+    Top = 213
+    Width = 209
+    Height = 23
+    Enabled = False
+    ImeName = 'officecodeEdit'
+    TabOrder = 5
+  end
+  object reportsToSpinEdit: TSpinEdit
+    Left = 80
+    Top = 253
+    Width = 209
+    Height = 24
+    MaxValue = 0
+    MinValue = 0
+    TabOrder = 6
+    Value = 0
+  end
+  object jobTitleEdit: TEdit
+    Left = 80
+    Top = 293
+    Width = 209
+    Height = 23
+    Enabled = False
+    ImeName = 'Italian'
+    TabOrder = 7
+  end
+  object cancelBtn: TButton
+    Left = 8
+    Top = 332
+    Width = 75
+    Height = 25
+    Caption = 'Cancel'
+    TabOrder = 8
+  end
+  object confrimBtn: TButton
+    Left = 214
+    Top = 332
+    Width = 75
+    Height = 25
+    Caption = 'Confirm'
+    DisabledImageName = 'confrimBtn'
+    TabOrder = 9
+  end
+end

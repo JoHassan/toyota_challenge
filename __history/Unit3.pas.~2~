@@ -1,0 +1,42 @@
+unit Unit3;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Samples.Spin;
+
+type
+  TaddEditEmployee = class(TForm)
+    idEdit: TEdit;
+    Label1: TLabel;
+    firstNameEdit: TEdit;
+    Label2: TLabel;
+    lastNameEdit: TEdit;
+    Label3: TLabel;
+    emailEdit: TEdit;
+    Label4: TLabel;
+    extensionEdit: TEdit;
+    Label5: TLabel;
+    officeCodeEdit: TEdit;
+    Label6: TLabel;
+    Label7: TLabel;
+    reportsToSpinEdit: TSpinEdit;
+    jobTitleEdit: TEdit;
+    Label8: TLabel;
+    cancelBtn: TButton;
+    confrimBtn: TButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  addEditEmployee: TaddEditEmployee;
+
+implementation
+
+{$R *.dfm}
+
+end.
