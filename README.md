@@ -6,7 +6,7 @@ Delphi Form connesso a Mysql per per aggiungere, modificare ed eliminare dipende
 ![dipendentiForm](https://github.com/JoHassan/toyota_challenge/assets/85934238/3812007a-453a-4949-88e9-5d4eb083ddb0)
 
 
-Se si vuole eseguirlo per farlo funzionare sarà necessario seguire questi passaggi:
+Per eseguirlo e farlo funzionare sarà necessario seguire questi passaggi:
 
 -Installare un Server Mysql al 127.0.0.1 e creare utente con password qualsiasi (in seguito viene chiesto l' accesso).
 
